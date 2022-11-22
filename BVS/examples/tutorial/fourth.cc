@@ -1,0 +1,75 @@
+/* -*- Mode:C++; c-file-style:"gnu"; indent-tabs-mode:nil; -*- */
+/*
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 as
+ * published by the Free Software Foundation;
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ */
+
+
+//could also use the one include: core module header, to get everything at once
+#include "ns3/object.h"
+#include "ns3/uinteger.h"
+#include "ns3/traced-value.h"
+#include "ns3/trace-source-accessor.h"
+
+#include <iostream>
+
+using namespace ns3;
+
+class MyObject : public Object
+{
+public:
+  /**
+   * Register this type.
+   * \return The TypeId.
+   */
+  static TypeId GetTypeId (void)
+  {
+    static TypeId tid = TypeId ("MyObject")
+      .SetParent<Object> ()
+      .SetGroupName ("Tutorial")
+      .AddConstructor<MyObject> ()
+      .AddTraceSource ("MyInteger", //name for the trace scource
+                       "An integer value to trace.", //help string
+                       MakeTraceSourceAccessor (&MyObject::m_myInt), // TracedValue which is being added to the class
+                       "ns3::TracedValueCallback::Int32")
+    ;
+    return tid;
+  }
+
+  MyObject () {}
+  TracedValue<int32_t> m_myInt; //provides infrastructure that drives the callback process, any time the underlying value is changed the TracedValue mechanism will provide 
+  //both the old and the new value of that variable
+};
+
+
+//traceSink
+void
+IntTrace (int32_t oldValue, int32_t newValue)
+{
+  std::cout << "Traced " << oldValue << " to " << newValue << std::endl;
+}
+
+int
+main (int argc, char *argv[])
+{
+  Ptr<MyObject> myObject = CreateObject<MyObject> ();
+  myObject->TraceConnectWithoutContext ("MyInteger", MakeCallback (&IntTrace)); //forms the connection between trace source and trace sink
+  /*
+  TracVonncect makes the association between the provided Function and overloaded operator() in the traced variable referred to by the "MyInteger" Attribute
+
+
+  MakeCallback template function
+  creates the underlying ns-3 Callback object and associate it with the function IntTrace
+  */
+  myObject->m_myInt = 1234;
+}

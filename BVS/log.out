@@ -1,0 +1,445 @@
+Waf: Entering directory `/home/anke/Dokumente/Bachelorarbeit/ns-allinone-3.29/ns-3.29/build'
+[2707/2769] Compiling scratch/wpanLaptopGateway.cc
+[2728/2769] Linking build/scratch/wpanLaptopGateway
+Waf: Leaving directory `/home/anke/Dokumente/Bachelorarbeit/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (8.823s)
++0.000000000s LrWpanNetDevice:LrWpanNetDevice(0xcdf600)
++0.000000000s [address 00:00] LrWpanMac:ChangeMacState(): 0xd11290 change lrwpan mac state from 0 to 0
++0.000000000s LrWpanPhy:SetMyPhyOption(0xd115a0)
++0.000000000s LrWpanSpectrumValueHelper:LrWpanSpectrumValueHelper(0x7ffeff64ac80)
++0.000000000s LrWpanSpectrumValueHelper:CreateTxPowerSpectralDensity(0x7ffeff64ac80)
++0.000000000s LrWpanSpectrumValueHelper:CreateNoisePowerSpectralDensity(0x7ffeff64ac80)
++0.000000000s LrWpanPhy:ChangeTrxState(): 0xd115a0 state: 8 -> 8
++0.000000000s LrWpanSpectrumValueHelper:~LrWpanSpectrumValueHelper(0x7ffeff64ac80)
++0.000000000s LrWpanNetDevice:CompleteConfig(0xcdf600)
++0.000000000s LrWpanNetDevice:LrWpanNetDevice(0xcf2220)
++0.000000000s [address 00:00] LrWpanMac:ChangeMacState(): 0xd12120 change lrwpan mac state from 0 to 0
++0.000000000s LrWpanPhy:SetMyPhyOption(0xd12690)
++0.000000000s LrWpanSpectrumValueHelper:LrWpanSpectrumValueHelper(0x7ffeff64ac80)
++0.000000000s LrWpanSpectrumValueHelper:CreateTxPowerSpectralDensity(0x7ffeff64ac80)
++0.000000000s LrWpanSpectrumValueHelper:CreateNoisePowerSpectralDensity(0x7ffeff64ac80)
++0.000000000s LrWpanPhy:ChangeTrxState(): 0xd12690 state: 8 -> 8
++0.000000000s LrWpanSpectrumValueHelper:~LrWpanSpectrumValueHelper(0x7ffeff64ac80)
++0.000000000s LrWpanNetDevice:CompleteConfig(0xcf2220)
++0.000000000s LrWpanNetDevice:SetNode(0xcdf600)
++0.000000000s LrWpanNetDevice:CompleteConfig(0xcdf600)
++0.000000000s LrWpanPhy:SetMobility(0xd115a0, 0xd45360)
++0.000000000s LrWpanPhy:SetErrorModel(0xd115a0, 0xcce740)
++0.000000000s LrWpanPhy:SetDevice(0xd115a0, 0xcdf600)
++0.000000000s LrWpanPhy:SetPdDataIndicationCallback(0xd115a0)
++0.000000000s LrWpanPhy:SetPdDataConfirmCallback(0xd115a0)
++0.000000000s LrWpanPhy:SetPlmeEdConfirmCallback(0xd115a0)
++0.000000000s LrWpanPhy:SetPlmeGetAttributeConfirmCallback(0xd115a0)
++0.000000000s LrWpanPhy:SetPlmeSetTRXStateConfirmCallback(0xd115a0)
++0.000000000s LrWpanPhy:SetPlmeSetAttributeConfirmCallback(0xd115a0)
++0.000000000s LrWpanCsmaCa:SetLrWpanMacStateCallback(0xd59770)
++0.000000000s LrWpanPhy:SetPlmeCcaConfirmCallback(0xd115a0)
++0.000000000s LrWpanNetDevice:SetIfIndex(0xcdf600, 0)
++0.000000000s LrWpanNetDevice:SetReceiveCallback(0xcdf600)
++0.000000000s LrWpanNetDevice:SetNode(0xcf2220)
++0.000000000s LrWpanNetDevice:CompleteConfig(0xcf2220)
++0.000000000s LrWpanPhy:SetMobility(0xd12690, 0xd0f470)
++0.000000000s LrWpanPhy:SetErrorModel(0xd12690, 0xd13980)
++0.000000000s LrWpanPhy:SetDevice(0xd12690, 0xcf2220)
++0.000000000s LrWpanPhy:SetPdDataIndicationCallback(0xd12690)
++0.000000000s LrWpanPhy:SetPdDataConfirmCallback(0xd12690)
++0.000000000s LrWpanPhy:SetPlmeEdConfirmCallback(0xd12690)
++0.000000000s LrWpanPhy:SetPlmeGetAttributeConfirmCallback(0xd12690)
++0.000000000s LrWpanPhy:SetPlmeSetTRXStateConfirmCallback(0xd12690)
++0.000000000s LrWpanPhy:SetPlmeSetAttributeConfirmCallback(0xd12690)
++0.000000000s LrWpanCsmaCa:SetLrWpanMacStateCallback(0xd59820)
++0.000000000s LrWpanPhy:SetPlmeCcaConfirmCallback(0xd12690)
++0.000000000s LrWpanNetDevice:SetIfIndex(0xcf2220, 0)
++0.000000000s LrWpanNetDevice:SetReceiveCallback(0xcf2220)
++0.000000000s LrWpanNetDevice:SetChannel(0xcdf600, 0xd13c10)
++0.000000000s LrWpanPhy:SetChannel(0xd115a0, 0xd13c10)
++0.000000000s LrWpanNetDevice:CompleteConfig(0xcdf600)
++0.000000000s LrWpanNetDevice:SetChannel(0xcf2220, 0xd13c10)
++0.000000000s LrWpanPhy:SetChannel(0xd12690, 0xd13c10)
++0.000000000s LrWpanNetDevice:CompleteConfig(0xcf2220)
++0.000000000s LrWpanNetDevice:SetAddress(0xcdf600)
++0.000000000s LrWpanNetDevice:SetAddress(0xcf2220)
++0.000000000s LrWpanNetDevice:GetPhy(0xcdf600)
++0.000000000s LrWpanNetDevice:GetPhy(0xcf2220)
++0.000000000s LrWpanNetDevice:GetNode(0xcdf600)
++0.000000000s LrWpanNetDevice:GetIfIndex(0xcdf600)
++0.000000000s LrWpanNetDevice:GetNode(0xcf2220)
++0.000000000s LrWpanNetDevice:GetIfIndex(0xcf2220)
++0.000000000s LrWpanNetDevice:GetNode(0xcdf600)
++0.000000000s LrWpanNetDevice:GetIfIndex(0xcdf600)
++0.000000000s LrWpanNetDevice:GetNode(0xcf2220)
++0.000000000s LrWpanNetDevice:GetIfIndex(0xcf2220)
++0.000000000s LrWpanNetDevice:DoInitialize(0xcdf600)
++0.000000000s LrWpanPhy:PlmeSetTRXStateRequest(0xd115a0, 6)
++0.000000000s LrWpanPhy:PlmeSetTRXStateRequest(): Trying to set m_trxState from 8 to 6
++0.000000000s LrWpanPhy:GetDataOrSymbolRate(0xd115a0, 0)
++0.000000000s LrWpanNetDevice:DoInitialize(0xcf2220)
++0.000000000s LrWpanPhy:PlmeSetTRXStateRequest(0xd12690, 6)
++0.000000000s LrWpanPhy:PlmeSetTRXStateRequest(): Trying to set m_trxState from 8 to 6
++0.000000000s LrWpanPhy:GetDataOrSymbolRate(0xd12690, 0)
++0.000000000s [address 00:01] LrWpanMac:McpsDataRequest(0xd11290, 0xd0f6b0)
++0.000000000s [address 00:01] LrWpanMac:GetShortAddress(0xd11290)
++0.000000000s LrWpanCsmaCa:IsSlottedCsmaCa(0xd59770)
++0.000000000s [address 00:01] LrWpanMac:CheckQueue(0xd11290)
++0.000000000s [address 00:01] LrWpanMac:SetLrWpanMacState(0xd11290, "mac state = ", 1)
++0.000000000s [address 00:01] LrWpanMac:ChangeMacState(): 0xd11290 change lrwpan mac state from 0 to 1
++0.000000000s LrWpanPhy:PlmeSetTRXStateRequest(0xd115a0, 6)
++0.000000000s LrWpanPhy:PlmeSetTRXStateRequest(): Trying to set m_trxState from 8 to 6
++0.000192000s LrWpanPhy:EndSetTRXState(0xd115a0)
++0.000192000s LrWpanPhy:ChangeTrxState(): 0xd115a0 state: 8 -> 6
+PHYlaptop state change at 0.000192 from TRX_OFF to RX_ON
++0.000192000s [address 00:01] LrWpanMac:PlmeSetTRXStateConfirm(0xd11290, 6)
++0.000192000s LrWpanCsmaCa:Start(0xd59770)
++0.000192000s LrWpanCsmaCa:IsSlottedCsmaCa(0xd59770)
++0.000192000s LrWpanPhy:EndSetTRXState(0xd12690)
++0.000192000s LrWpanPhy:ChangeTrxState(): 0xd12690 state: 8 -> 6
+PHYgateway state change at 0.000192 from TRX_OFF to RX_ON
++0.000192000s [address 00:02] LrWpanMac:PlmeSetTRXStateConfirm(0xd12120, 6)
++0.000192000s LrWpanCsmaCa:RandomBackoffDelay(0xd59770)
++0.000192000s LrWpanPhy:GetDataOrSymbolRate(0xd115a0, 0)
++0.000192000s LrWpanCsmaCa:GetUnitBackoffPeriod(0xd59770)
++0.000192000s LrWpanCsmaCa:IsUnSlottedCsmaCa(0xd59770)
++0.000192000s LrWpanCsmaCa:RandomBackoffDelay(): Unslotted:  requesting CCA after backoff of 2240 us
++0.002432000s LrWpanCsmaCa:RequestCCA(0xd59770)
++0.002432000s LrWpanPhy:PlmeCcaRequest(0xd115a0)
++0.002432000s LrWpanPhy:GetDataOrSymbolRate(0xd115a0, 0)
++0.002560000s LrWpanPhy:EndCca(0xd115a0)
++0.002560000s LrWpanInterferenceHelper:GetSignalPsd(0xce6020)
++0.002560000s LrWpanSpectrumValueHelper:TotalAvgPower(0xd1af70)
++0.002560000s LrWpanPhy:PhyIsBusy(0xd115a0, 6)
++0.002560000s LrWpanPhy:EndCca(): 0xd115a0channel sensed state: 4
++0.002560000s LrWpanCsmaCa:PlmeCcaConfirm(0xd59770, 4)
++0.002560000s LrWpanCsmaCa:IsSlottedCsmaCa(0xd59770)
++0.002560000s LrWpanCsmaCa:PlmeCcaConfirm(): Notifying MAC of idle channel
++0.002560000s [address 00:01] LrWpanMac:SetLrWpanMacState(0xd11290, "mac state = ", 5)
++0.002560000s [address 00:01] LrWpanMac:ChangeMacState(): 0xd11290 change lrwpan mac state from 1 to 2
++0.002560000s LrWpanPhy:PlmeSetTRXStateRequest(0xd115a0, 9)
++0.002560000s LrWpanPhy:PlmeSetTRXStateRequest(): Trying to set m_trxState from 6 to 9
++0.002560000s LrWpanPhy:CancelEd(0xd115a0)
++0.002560000s LrWpanPhy:PlmeSetTRXStateRequest(): turn on PHY_TX_ON
++0.002560000s LrWpanPhy:GetDataOrSymbolRate(0xd115a0, 0)
++0.002752000s LrWpanPhy:EndSetTRXState(0xd115a0)
++0.002752000s LrWpanPhy:ChangeTrxState(): 0xd115a0 state: 6 -> 9
+PHYlaptop state change at 0.002752 from RX_ON to TX_ON
++0.002752000s [address 00:01] LrWpanMac:PlmeSetTRXStateConfirm(0xd11290, 9)
++0.002752000s LrWpanPhy:PdDataRequest(0xd115a0, 63, 0xd0f6b0)
++0.002752000s LrWpanSpectrumSignalParameters:LrWpanSpectrumSignalParameters(0xd38d90)
++0.002752000s LrWpanPhy:CalculateTxTime(0xd115a0, 0xd0f6b0)
++0.002752000s LrWpanPhy:GetPpduHeaderTxTime(0xd115a0)
++0.002752000s LrWpanPhy:GetDataOrSymbolRate(0xd115a0, 0)
++0.002752000s LrWpanPhy:GetDataOrSymbolRate(0xd115a0, 1)
++0.002752000s LrWpanSpectrumSignalParameters:Copy(0xd38d90)
++0.002752000s LrWpanSpectrumSignalParameters:LrWpanSpectrumSignalParameters(0x7ffeff64a740, 0xd38d90)
++0.002752000s LrWpanSpectrumSignalParameters:LrWpanSpectrumSignalParameters(0xcd8100, 0x7ffeff64a740)
++0.002752000s LrWpanPhy:GetMobility(0xd115a0)
++0.002752000s LrWpanPhy:GetMobility(0xd12690)
++0.002752000s LrWpanSpectrumSignalParameters:Copy(0xd38d90)
++0.002752000s LrWpanSpectrumSignalParameters:LrWpanSpectrumSignalParameters(0x7ffeff64a740, 0xd38d90)
++0.002752000s LrWpanSpectrumSignalParameters:LrWpanSpectrumSignalParameters(0xd38130, 0x7ffeff64a740)
++0.002752000s LrWpanPhy:GetRxAntenna(0xd12690)
++0.002752000s LrWpanPhy:GetDevice(0xd12690)
++0.002752000s LrWpanNetDevice:GetNode(0xcf2220)
++0.002752000s LrWpanPhy:ChangeTrxState(): 0xd115a0 state: 9 -> 2
+PHYlaptop state change at 0.002752 from TX_ON to BUSY_TX
++0.002752016s LrWpanPhy:StartRx(0xd12690, 0xd38130)
++0.002752016s LrWpanSpectrumValueHelper:LrWpanSpectrumValueHelper(0x7ffeff64aac0)
++0.002752016s LrWpanPhy:StartRx(): 0xd12690 receiving packet with power: +0.002752016s LrWpanSpectrumValueHelper:TotalAvgPower(0xcb4970)
+-67.6468dBm
++0.002752016s LrWpanInterferenceHelper:AddSignal(0xce5b50, 0xcb4970)
++0.002752016s LrWpanInterferenceHelper:GetSignalPsd(0xce5b50)
++0.002752016s LrWpanSpectrumValueHelper:TotalAvgPower(0xcb4970)
++0.002752016s LrWpanSpectrumValueHelper:TotalAvgPower(0xcb4940)
++0.002752016s LrWpanPhy:ChangeTrxState(): 0xd12690 state: 6 -> 1
+PHYgateway state change at 0.00275202 from RX_ON to BUSY_RX
++0.002752016s LrWpanSpectrumValueHelper:~LrWpanSpectrumValueHelper(0x7ffeff64aac0)
++0.004959999s LrWpanPhy:EndTx(0xd115a0)
++0.004959999s LrWpanPhy:EndTx(): Packet successfully transmitted
++0.004959999s [address 00:01] LrWpanMac:PdDataConfirm(0xd11290, 7, 1)
++0.004959999s LrWpanCsmaCa:GetUnitBackoffPeriod(0xd59770)
++0.004959999s LrWpanPhy:GetPhySHRDuration(0xd115a0)
++0.004959999s LrWpanPhy:GetPhySymbolsPerOctet(0xd115a0)
++0.004959999s LrWpanPhy:GetDataOrSymbolRate(0xd115a0, 0)
++0.004959999s LrWpanPhy:ChangeTrxState(): 0xd115a0 state: 2 -> 9
+PHYlaptop state change at 0.00496 from BUSY_TX to TX_ON
++0.004959999s [address 00:01] LrWpanMac:SetLrWpanMacState(0xd11290, "mac state = ", 3)
++0.004959999s [address 00:01] LrWpanMac:ChangeMacState(): 0xd11290 change lrwpan mac state from 2 to 3
++0.004959999s LrWpanPhy:PlmeSetTRXStateRequest(0xd115a0, 6)
++0.004959999s LrWpanPhy:PlmeSetTRXStateRequest(): Trying to set m_trxState from 9 to 6
++0.004959999s LrWpanPhy:GetDataOrSymbolRate(0xd115a0, 0)
++0.004960015s LrWpanPhy:EndRx(0xd12690)
++0.004960015s LrWpanSpectrumValueHelper:LrWpanSpectrumValueHelper(0x7ffeff64ab10)
++0.004960015s LrWpanPhy:GetDataOrSymbolRate(0xd12690, 1)
++0.004960015s LrWpanInterferenceHelper:GetSignalPsd(0xce5b50)
++0.004960015s LrWpanSpectrumValueHelper:TotalAvgPower(0xcb4970)
++0.004960015s LrWpanSpectrumValueHelper:TotalAvgPower(0xd1af70)
++0.004960015s LrWpanSpectrumValueHelper:~LrWpanSpectrumValueHelper(0x7ffeff64ab10)
++0.004960015s LrWpanInterferenceHelper:RemoveSignal(0xce5b50, 0xcb4970)
++0.004960015s [address 00:02] LrWpanMac:PdDataIndication(0xd12120, 63, 0xd1bbc0, 255)
++0.004960015s [address 00:02] LrWpanMac:PdDataIndication(): Packet from 00:01
++0.004960015s [address 00:02] LrWpanMac:PdDataIndication(): Packet to 00:02
++0.004960015s [address 00:02] LrWpanMac:ChangeMacState(): 0xd12120 change lrwpan mac state from 0 to 0
++0.004960015s [address 00:02] LrWpanMac:PdDataIndication(): PdDataIndication():  Packet is for me; forwarding up
+Received packet of size 50
++0.004960015s LrWpanPhy:ChangeTrxState(): 0xd12690 state: 1 -> 6
+PHYgateway state change at 0.00496001 from BUSY_RX to RX_ON
++0.004960015s [address 00:02] LrWpanMac:SendAck(0xd12120, 208)
++0.004960015s [address 00:02] LrWpanMac:ChangeMacState(): 0xd12120 change lrwpan mac state from 0 to 2
++0.004960015s LrWpanPhy:PlmeSetTRXStateRequest(0xd12690, 9)
++0.004960015s LrWpanPhy:PlmeSetTRXStateRequest(): Trying to set m_trxState from 6 to 9
++0.004960015s LrWpanPhy:CancelEd(0xd12690)
++0.004960015s LrWpanPhy:PlmeSetTRXStateRequest(): turn on PHY_TX_ON
++0.004960015s LrWpanPhy:GetDataOrSymbolRate(0xd12690, 0)
++0.005151999s LrWpanPhy:EndSetTRXState(0xd115a0)
++0.005151999s LrWpanPhy:ChangeTrxState(): 0xd115a0 state: 9 -> 6
+PHYlaptop state change at 0.005152 from TX_ON to RX_ON
++0.005151999s [address 00:01] LrWpanMac:PlmeSetTRXStateConfirm(0xd11290, 6)
++0.005152015s LrWpanPhy:EndSetTRXState(0xd12690)
++0.005152015s LrWpanPhy:ChangeTrxState(): 0xd12690 state: 6 -> 9
+PHYgateway state change at 0.00515202 from RX_ON to TX_ON
++0.005152015s [address 00:02] LrWpanMac:PlmeSetTRXStateConfirm(0xd12120, 9)
++0.005152015s LrWpanPhy:PdDataRequest(0xd12690, 5, 0xd1bbc0)
++0.005152015s LrWpanSpectrumSignalParameters:LrWpanSpectrumSignalParameters(0xcc57f0)
++0.005152015s LrWpanPhy:CalculateTxTime(0xd12690, 0xd1bbc0)
++0.005152015s LrWpanPhy:GetPpduHeaderTxTime(0xd12690)
++0.005152015s LrWpanPhy:GetDataOrSymbolRate(0xd12690, 0)
++0.005152015s LrWpanPhy:GetDataOrSymbolRate(0xd12690, 1)
++0.005152015s LrWpanSpectrumSignalParameters:Copy(0xcc57f0)
++0.005152015s LrWpanSpectrumSignalParameters:LrWpanSpectrumSignalParameters(0x7ffeff64a740, 0xcc57f0)
++0.005152015s LrWpanSpectrumSignalParameters:LrWpanSpectrumSignalParameters(0xcc0740, 0x7ffeff64a740)
++0.005152015s LrWpanPhy:GetMobility(0xd12690)
++0.005152015s LrWpanPhy:GetMobility(0xd115a0)
++0.005152015s LrWpanSpectrumSignalParameters:Copy(0xcc57f0)
++0.005152015s LrWpanSpectrumSignalParameters:LrWpanSpectrumSignalParameters(0x7ffeff64a740, 0xcc57f0)
++0.005152015s LrWpanSpectrumSignalParameters:LrWpanSpectrumSignalParameters(0xd13290, 0x7ffeff64a740)
++0.005152015s LrWpanPhy:GetRxAntenna(0xd115a0)
++0.005152015s LrWpanPhy:GetDevice(0xd115a0)
++0.005152015s LrWpanNetDevice:GetNode(0xcdf600)
++0.005152015s LrWpanPhy:ChangeTrxState(): 0xd12690 state: 9 -> 2
+PHYgateway state change at 0.00515202 from TX_ON to BUSY_TX
++0.005152031s LrWpanPhy:StartRx(0xd115a0, 0xd13290)
++0.005152031s LrWpanSpectrumValueHelper:LrWpanSpectrumValueHelper(0x7ffeff64aac0)
++0.005152031s LrWpanPhy:StartRx(): 0xd115a0 receiving packet with power: +0.005152031s LrWpanSpectrumValueHelper:TotalAvgPower(0xcb46d0)
+-67.6468dBm
++0.005152031s LrWpanInterferenceHelper:AddSignal(0xce6020, 0xcb46d0)
++0.005152031s LrWpanInterferenceHelper:GetSignalPsd(0xce6020)
++0.005152031s LrWpanSpectrumValueHelper:TotalAvgPower(0xcb46d0)
++0.005152031s LrWpanSpectrumValueHelper:TotalAvgPower(0xcba660)
++0.005152031s LrWpanPhy:ChangeTrxState(): 0xd115a0 state: 6 -> 1
+PHYlaptop state change at 0.00515203 from RX_ON to BUSY_RX
++0.005152031s LrWpanSpectrumValueHelper:~LrWpanSpectrumValueHelper(0x7ffeff64aac0)
++0.005504015s LrWpanPhy:EndTx(0xd12690)
++0.005504015s LrWpanPhy:EndTx(): Packet successfully transmitted
++0.005504015s [address 00:02] LrWpanMac:PdDataConfirm(0xd12120, 7, 0)
++0.005504015s LrWpanPhy:ChangeTrxState(): 0xd12690 state: 2 -> 9
+PHYgateway state change at 0.00550402 from BUSY_TX to TX_ON
++0.005504015s [address 00:02] LrWpanMac:SetLrWpanMacState(0xd12120, "mac state = ", 0)
++0.005504015s [address 00:02] LrWpanMac:ChangeMacState(): 0xd12120 change lrwpan mac state from 2 to 0
++0.005504015s LrWpanPhy:PlmeSetTRXStateRequest(0xd12690, 6)
++0.005504015s LrWpanPhy:PlmeSetTRXStateRequest(): Trying to set m_trxState from 9 to 6
++0.005504015s LrWpanPhy:GetDataOrSymbolRate(0xd12690, 0)
++0.005504015s [address 00:02] LrWpanMac:CheckQueue(0xd12120)
++0.005504031s LrWpanPhy:EndRx(0xd115a0)
++0.005504031s LrWpanSpectrumValueHelper:LrWpanSpectrumValueHelper(0x7ffeff64ab10)
++0.005504031s LrWpanPhy:GetDataOrSymbolRate(0xd115a0, 1)
++0.005504031s LrWpanInterferenceHelper:GetSignalPsd(0xce6020)
++0.005504031s LrWpanSpectrumValueHelper:TotalAvgPower(0xcb46d0)
++0.005504031s LrWpanSpectrumValueHelper:TotalAvgPower(0xcb49e0)
++0.005504031s LrWpanSpectrumValueHelper:~LrWpanSpectrumValueHelper(0x7ffeff64ab10)
++0.005504031s LrWpanInterferenceHelper:RemoveSignal(0xce6020, 0xcb46d0)
++0.005504031s [address 00:01] LrWpanMac:PdDataIndication(0xd11290, 5, 0xd1bc50, 255)
+LrWpanMcpsDataConfirmStatus = 0
++0.005504031s LrWpanPhy:ChangeTrxState(): 0xd115a0 state: 1 -> 6
+PHYlaptop state change at 0.00550403 from BUSY_RX to RX_ON
++0.005504031s [address 00:01] LrWpanMac:SetLrWpanMacState(0xd11290, "mac state = ", 0)
++0.005504031s [address 00:01] LrWpanMac:ChangeMacState(): 0xd11290 change lrwpan mac state from 3 to 0
++0.005504031s LrWpanPhy:PlmeSetTRXStateRequest(0xd115a0, 6)
++0.005504031s LrWpanPhy:PlmeSetTRXStateRequest(): Trying to set m_trxState from 6 to 6
++0.005504031s [address 00:01] LrWpanMac:PlmeSetTRXStateConfirm(0xd11290, 6)
++0.005504031s [address 00:01] LrWpanMac:CheckQueue(0xd11290)
++0.005696015s LrWpanPhy:EndSetTRXState(0xd12690)
++0.005696015s LrWpanPhy:ChangeTrxState(): 0xd12690 state: 9 -> 6
+PHYgateway state change at 0.00569601 from TX_ON to RX_ON
++0.005696015s [address 00:02] LrWpanMac:PlmeSetTRXStateConfirm(0xd12120, 6)
++5.000000000s [address 00:02] LrWpanMac:McpsDataRequest(0xd12120, 0xce48d0)
++5.000000000s [address 00:02] LrWpanMac:GetShortAddress(0xd12120)
++5.000000000s LrWpanCsmaCa:IsSlottedCsmaCa(0xd59820)
++5.000000000s [address 00:02] LrWpanMac:CheckQueue(0xd12120)
++5.000000000s [address 00:02] LrWpanMac:SetLrWpanMacState(0xd12120, "mac state = ", 1)
++5.000000000s [address 00:02] LrWpanMac:ChangeMacState(): 0xd12120 change lrwpan mac state from 0 to 1
++5.000000000s LrWpanPhy:PlmeSetTRXStateRequest(0xd12690, 6)
++5.000000000s LrWpanPhy:PlmeSetTRXStateRequest(): Trying to set m_trxState from 6 to 6
++5.000000000s [address 00:02] LrWpanMac:PlmeSetTRXStateConfirm(0xd12120, 6)
++5.000000000s LrWpanCsmaCa:Start(0xd59820)
++5.000000000s LrWpanCsmaCa:IsSlottedCsmaCa(0xd59820)
++5.000000000s LrWpanCsmaCa:RandomBackoffDelay(0xd59820)
++5.000000000s LrWpanPhy:GetDataOrSymbolRate(0xd12690, 0)
++5.000000000s LrWpanCsmaCa:GetUnitBackoffPeriod(0xd59820)
++5.000000000s LrWpanCsmaCa:IsUnSlottedCsmaCa(0xd59820)
++5.000000000s LrWpanCsmaCa:RandomBackoffDelay(): Unslotted:  requesting CCA after backoff of 1600 us
++5.001600000s LrWpanCsmaCa:RequestCCA(0xd59820)
++5.001600000s LrWpanPhy:PlmeCcaRequest(0xd12690)
++5.001600000s LrWpanPhy:GetDataOrSymbolRate(0xd12690, 0)
++5.001728000s LrWpanPhy:EndCca(0xd12690)
++5.001728000s LrWpanInterferenceHelper:GetSignalPsd(0xce5b50)
++5.001728000s LrWpanSpectrumValueHelper:TotalAvgPower(0xcba720)
++5.001728000s LrWpanPhy:PhyIsBusy(0xd12690, 6)
++5.001728000s LrWpanPhy:EndCca(): 0xd12690channel sensed state: 4
++5.001728000s LrWpanCsmaCa:PlmeCcaConfirm(0xd59820, 4)
++5.001728000s LrWpanCsmaCa:IsSlottedCsmaCa(0xd59820)
++5.001728000s LrWpanCsmaCa:PlmeCcaConfirm(): Notifying MAC of idle channel
++5.001728000s [address 00:02] LrWpanMac:SetLrWpanMacState(0xd12120, "mac state = ", 5)
++5.001728000s [address 00:02] LrWpanMac:ChangeMacState(): 0xd12120 change lrwpan mac state from 1 to 2
++5.001728000s LrWpanPhy:PlmeSetTRXStateRequest(0xd12690, 9)
++5.001728000s LrWpanPhy:PlmeSetTRXStateRequest(): Trying to set m_trxState from 6 to 9
++5.001728000s LrWpanPhy:CancelEd(0xd12690)
++5.001728000s LrWpanPhy:PlmeSetTRXStateRequest(): turn on PHY_TX_ON
++5.001728000s LrWpanPhy:GetDataOrSymbolRate(0xd12690, 0)
++5.001920000s LrWpanPhy:EndSetTRXState(0xd12690)
++5.001920000s LrWpanPhy:ChangeTrxState(): 0xd12690 state: 6 -> 9
+PHYgateway state change at 5.00192 from RX_ON to TX_ON
++5.001920000s [address 00:02] LrWpanMac:PlmeSetTRXStateConfirm(0xd12120, 9)
++5.001920000s LrWpanPhy:PdDataRequest(0xd12690, 73, 0xce48d0)
++5.001920000s LrWpanSpectrumSignalParameters:LrWpanSpectrumSignalParameters(0xcd2740)
++5.001920000s LrWpanPhy:CalculateTxTime(0xd12690, 0xce48d0)
++5.001920000s LrWpanPhy:GetPpduHeaderTxTime(0xd12690)
++5.001920000s LrWpanPhy:GetDataOrSymbolRate(0xd12690, 0)
++5.001920000s LrWpanPhy:GetDataOrSymbolRate(0xd12690, 1)
++5.001920000s LrWpanSpectrumSignalParameters:Copy(0xcd2740)
++5.001920000s LrWpanSpectrumSignalParameters:LrWpanSpectrumSignalParameters(0x7ffeff64a740, 0xcd2740)
++5.001920000s LrWpanSpectrumSignalParameters:LrWpanSpectrumSignalParameters(0xd38b40, 0x7ffeff64a740)
++5.001920000s LrWpanPhy:GetMobility(0xd12690)
++5.001920000s LrWpanPhy:GetMobility(0xd115a0)
++5.001920000s LrWpanSpectrumSignalParameters:Copy(0xcd2740)
++5.001920000s LrWpanSpectrumSignalParameters:LrWpanSpectrumSignalParameters(0x7ffeff64a740, 0xcd2740)
++5.001920000s LrWpanSpectrumSignalParameters:LrWpanSpectrumSignalParameters(0xcdb480, 0x7ffeff64a740)
++5.001920000s LrWpanPhy:GetRxAntenna(0xd115a0)
++5.001920000s LrWpanPhy:GetDevice(0xd115a0)
++5.001920000s LrWpanNetDevice:GetNode(0xcdf600)
++5.001920000s LrWpanPhy:ChangeTrxState(): 0xd12690 state: 9 -> 2
+PHYgateway state change at 5.00192 from TX_ON to BUSY_TX
++5.001920016s LrWpanPhy:StartRx(0xd115a0, 0xcdb480)
++5.001920016s LrWpanSpectrumValueHelper:LrWpanSpectrumValueHelper(0x7ffeff64aac0)
++5.001920016s LrWpanPhy:StartRx(): 0xd115a0 receiving packet with power: +5.001920016s LrWpanSpectrumValueHelper:TotalAvgPower(0xcba5a0)
+-67.6468dBm
++5.001920016s LrWpanInterferenceHelper:AddSignal(0xce6020, 0xcba5a0)
++5.001920016s LrWpanInterferenceHelper:GetSignalPsd(0xce6020)
++5.001920016s LrWpanSpectrumValueHelper:TotalAvgPower(0xcba5a0)
++5.001920016s LrWpanSpectrumValueHelper:TotalAvgPower(0xd38040)
++5.001920016s LrWpanPhy:ChangeTrxState(): 0xd115a0 state: 6 -> 1
+PHYlaptop state change at 5.00192 from RX_ON to BUSY_RX
++5.001920016s LrWpanSpectrumValueHelper:~LrWpanSpectrumValueHelper(0x7ffeff64aac0)
++5.004447999s LrWpanPhy:EndTx(0xd12690)
++5.004447999s LrWpanPhy:EndTx(): Packet successfully transmitted
++5.004447999s [address 00:02] LrWpanMac:PdDataConfirm(0xd12120, 7, 1)
++5.004447999s LrWpanCsmaCa:GetUnitBackoffPeriod(0xd59820)
++5.004447999s LrWpanPhy:GetPhySHRDuration(0xd12690)
++5.004447999s LrWpanPhy:GetPhySymbolsPerOctet(0xd12690)
++5.004447999s LrWpanPhy:GetDataOrSymbolRate(0xd12690, 0)
++5.004447999s LrWpanPhy:ChangeTrxState(): 0xd12690 state: 2 -> 9
+PHYgateway state change at 5.00445 from BUSY_TX to TX_ON
++5.004447999s [address 00:02] LrWpanMac:SetLrWpanMacState(0xd12120, "mac state = ", 3)
++5.004447999s [address 00:02] LrWpanMac:ChangeMacState(): 0xd12120 change lrwpan mac state from 2 to 3
++5.004447999s LrWpanPhy:PlmeSetTRXStateRequest(0xd12690, 6)
++5.004447999s LrWpanPhy:PlmeSetTRXStateRequest(): Trying to set m_trxState from 9 to 6
++5.004447999s LrWpanPhy:GetDataOrSymbolRate(0xd12690, 0)
++5.004448015s LrWpanPhy:EndRx(0xd115a0)
++5.004448015s LrWpanSpectrumValueHelper:LrWpanSpectrumValueHelper(0x7ffeff64ab10)
++5.004448015s LrWpanPhy:GetDataOrSymbolRate(0xd115a0, 1)
++5.004448015s LrWpanInterferenceHelper:GetSignalPsd(0xce6020)
++5.004448015s LrWpanSpectrumValueHelper:TotalAvgPower(0xcba5a0)
++5.004448015s LrWpanSpectrumValueHelper:TotalAvgPower(0xcba720)
++5.004448015s LrWpanSpectrumValueHelper:~LrWpanSpectrumValueHelper(0x7ffeff64ab10)
++5.004448015s LrWpanInterferenceHelper:RemoveSignal(0xce6020, 0xcba5a0)
++5.004448015s [address 00:01] LrWpanMac:PdDataIndication(0xd11290, 73, 0xd388c0, 255)
++5.004448015s [address 00:01] LrWpanMac:PdDataIndication(): Packet from 00:02
++5.004448015s [address 00:01] LrWpanMac:PdDataIndication(): Packet to 00:01
++5.004448015s [address 00:01] LrWpanMac:ChangeMacState(): 0xd11290 change lrwpan mac state from 0 to 0
++5.004448015s [address 00:01] LrWpanMac:PdDataIndication(): PdDataIndication():  Packet is for me; forwarding up
+Received packet of size 60
++5.004448015s LrWpanPhy:ChangeTrxState(): 0xd115a0 state: 1 -> 6
+PHYlaptop state change at 5.00445 from BUSY_RX to RX_ON
++5.004448015s [address 00:01] LrWpanMac:SendAck(0xd11290, 251)
++5.004448015s [address 00:01] LrWpanMac:ChangeMacState(): 0xd11290 change lrwpan mac state from 0 to 2
++5.004448015s LrWpanPhy:PlmeSetTRXStateRequest(0xd115a0, 9)
++5.004448015s LrWpanPhy:PlmeSetTRXStateRequest(): Trying to set m_trxState from 6 to 9
++5.004448015s LrWpanPhy:CancelEd(0xd115a0)
++5.004448015s LrWpanPhy:PlmeSetTRXStateRequest(): turn on PHY_TX_ON
++5.004448015s LrWpanPhy:GetDataOrSymbolRate(0xd115a0, 0)
++5.004639999s LrWpanPhy:EndSetTRXState(0xd12690)
++5.004639999s LrWpanPhy:ChangeTrxState(): 0xd12690 state: 9 -> 6
+PHYgateway state change at 5.00464 from TX_ON to RX_ON
++5.004639999s [address 00:02] LrWpanMac:PlmeSetTRXStateConfirm(0xd12120, 6)
++5.004640015s LrWpanPhy:EndSetTRXState(0xd115a0)
++5.004640015s LrWpanPhy:ChangeTrxState(): 0xd115a0 state: 6 -> 9
+PHYlaptop state change at 5.00464 from RX_ON to TX_ON
++5.004640015s [address 00:01] LrWpanMac:PlmeSetTRXStateConfirm(0xd11290, 9)
++5.004640015s LrWpanPhy:PdDataRequest(0xd115a0, 5, 0xd388c0)
++5.004640015s LrWpanSpectrumSignalParameters:LrWpanSpectrumSignalParameters(0xd13290)
++5.004640015s LrWpanPhy:CalculateTxTime(0xd115a0, 0xd388c0)
++5.004640015s LrWpanPhy:GetPpduHeaderTxTime(0xd115a0)
++5.004640015s LrWpanPhy:GetDataOrSymbolRate(0xd115a0, 0)
++5.004640015s LrWpanPhy:GetDataOrSymbolRate(0xd115a0, 1)
++5.004640015s LrWpanSpectrumSignalParameters:Copy(0xd13290)
++5.004640015s LrWpanSpectrumSignalParameters:LrWpanSpectrumSignalParameters(0x7ffeff64a740, 0xd13290)
++5.004640015s LrWpanSpectrumSignalParameters:LrWpanSpectrumSignalParameters(0xcf9e20, 0x7ffeff64a740)
++5.004640015s LrWpanPhy:GetMobility(0xd115a0)
++5.004640015s LrWpanPhy:GetMobility(0xd12690)
++5.004640015s LrWpanSpectrumSignalParameters:Copy(0xd13290)
++5.004640015s LrWpanSpectrumSignalParameters:LrWpanSpectrumSignalParameters(0x7ffeff64a740, 0xd13290)
++5.004640015s LrWpanSpectrumSignalParameters:LrWpanSpectrumSignalParameters(0xd67170, 0x7ffeff64a740)
++5.004640015s LrWpanPhy:GetRxAntenna(0xd12690)
++5.004640015s LrWpanPhy:GetDevice(0xd12690)
++5.004640015s LrWpanNetDevice:GetNode(0xcf2220)
++5.004640015s LrWpanPhy:ChangeTrxState(): 0xd115a0 state: 9 -> 2
+PHYlaptop state change at 5.00464 from TX_ON to BUSY_TX
++5.004640031s LrWpanPhy:StartRx(0xd12690, 0xd67170)
++5.004640031s LrWpanSpectrumValueHelper:LrWpanSpectrumValueHelper(0x7ffeff64aac0)
++5.004640031s LrWpanPhy:StartRx(): 0xd12690 receiving packet with power: +5.004640031s LrWpanSpectrumValueHelper:TotalAvgPower(0xcb91d0)
+-67.6468dBm
++5.004640031s LrWpanInterferenceHelper:AddSignal(0xce5b50, 0xcb91d0)
++5.004640031s LrWpanInterferenceHelper:GetSignalPsd(0xce5b50)
++5.004640031s LrWpanSpectrumValueHelper:TotalAvgPower(0xcb91d0)
++5.004640031s LrWpanSpectrumValueHelper:TotalAvgPower(0xcb6610)
++5.004640031s LrWpanPhy:ChangeTrxState(): 0xd12690 state: 6 -> 1
+PHYgateway state change at 5.00464 from RX_ON to BUSY_RX
++5.004640031s LrWpanSpectrumValueHelper:~LrWpanSpectrumValueHelper(0x7ffeff64aac0)
++5.004992015s LrWpanPhy:EndTx(0xd115a0)
++5.004992015s LrWpanPhy:EndTx(): Packet successfully transmitted
++5.004992015s [address 00:01] LrWpanMac:PdDataConfirm(0xd11290, 7, 0)
++5.004992015s LrWpanPhy:ChangeTrxState(): 0xd115a0 state: 2 -> 9
+PHYlaptop state change at 5.00499 from BUSY_TX to TX_ON
++5.004992015s [address 00:01] LrWpanMac:SetLrWpanMacState(0xd11290, "mac state = ", 0)
++5.004992015s [address 00:01] LrWpanMac:ChangeMacState(): 0xd11290 change lrwpan mac state from 2 to 0
++5.004992015s LrWpanPhy:PlmeSetTRXStateRequest(0xd115a0, 6)
++5.004992015s LrWpanPhy:PlmeSetTRXStateRequest(): Trying to set m_trxState from 9 to 6
++5.004992015s LrWpanPhy:GetDataOrSymbolRate(0xd115a0, 0)
++5.004992015s [address 00:01] LrWpanMac:CheckQueue(0xd11290)
++5.004992031s LrWpanPhy:EndRx(0xd12690)
++5.004992031s LrWpanSpectrumValueHelper:LrWpanSpectrumValueHelper(0x7ffeff64ab10)
++5.004992031s LrWpanPhy:GetDataOrSymbolRate(0xd12690, 1)
++5.004992031s LrWpanInterferenceHelper:GetSignalPsd(0xce5b50)
++5.004992031s LrWpanSpectrumValueHelper:TotalAvgPower(0xcb91d0)
++5.004992031s LrWpanSpectrumValueHelper:TotalAvgPower(0xd1af70)
++5.004992031s LrWpanSpectrumValueHelper:~LrWpanSpectrumValueHelper(0x7ffeff64ab10)
++5.004992031s LrWpanInterferenceHelper:RemoveSignal(0xce5b50, 0xcb91d0)
++5.004992031s [address 00:02] LrWpanMac:PdDataIndication(0xd12120, 5, 0xd1b860, 255)
+LrWpanMcpsDataConfirmStatus = 0
++5.004992031s LrWpanPhy:ChangeTrxState(): 0xd12690 state: 1 -> 6
+PHYgateway state change at 5.00499 from BUSY_RX to RX_ON
++5.004992031s [address 00:02] LrWpanMac:SetLrWpanMacState(0xd12120, "mac state = ", 0)
++5.004992031s [address 00:02] LrWpanMac:ChangeMacState(): 0xd12120 change lrwpan mac state from 3 to 0
++5.004992031s LrWpanPhy:PlmeSetTRXStateRequest(0xd12690, 6)
++5.004992031s LrWpanPhy:PlmeSetTRXStateRequest(): Trying to set m_trxState from 6 to 6
++5.004992031s [address 00:02] LrWpanMac:PlmeSetTRXStateConfirm(0xd12120, 6)
++5.004992031s [address 00:02] LrWpanMac:CheckQueue(0xd12120)
++5.005184015s LrWpanPhy:EndSetTRXState(0xd115a0)
++5.005184015s LrWpanPhy:ChangeTrxState(): 0xd115a0 state: 9 -> 6
+PHYlaptop state change at 5.00518 from TX_ON to RX_ON
++5.005184015s [address 00:01] LrWpanMac:PlmeSetTRXStateConfirm(0xd11290, 6)
+LrWpanNetDevice:DoDispose(0xcdf600)
+LrWpanPhy:DoDispose(0xd115a0)
+LrWpanNetDevice:DoDispose(0xcf2220)
+LrWpanPhy:DoDispose(0xd12690)
+LrWpanNetDevice:~LrWpanNetDevice(0xcf2220)
+LrWpanNetDevice:~LrWpanNetDevice(0xcdf600)

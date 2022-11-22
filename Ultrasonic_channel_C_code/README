@@ -1,0 +1,37 @@
+# Ultrasound Module
+
+## Table of Contents
+
+1. [Overview](#s1)
+1. [Parameters](#s2)
+1. [Integration](#s3)
+1. [References](#s4)
+
+
+<div id='s1'/>
+## 1. Overview
+This module is an external addition to ns-3 [1] for simulating signals with ultrasound. Specifically this module works in conjuction with the BloodVoyagerSimulator (BVS) [2] inside ns-3 to simulate nanobots flowing through the human cardiovascular system and simulate signals from in-body to an outside gateway on the human skin.
+
+
+<div id='s2'/>
+## 2. Parameters <a name="s2"></a>
+- interpolated Gain read from a file [3]
+- interpolated Delay read from a file [3]
+
+
+<div id='s3'/>
+## 3. Integration <a name="s3"></a>
+The insertion point of our Terahertz module happens inside the function "PrintNanobots" of the "Bloodvessel" class of BVS with every nanobot which happens to be in the Blood Vessel ID of the Left Heart(2).
+Now that a nanobot is in range of the gateway and since BVS only provides us with singular snapshots of the positions every second, we are assuming that every nanobot within this vessel will enter the communication range of the gateway.
+Further we are assuming, that the transmission of the signal will start at the highest possible distance to the gateway which is 80 mm distance. 
+The signal is being simulated using our own [modulation transceiver](../BPSK_Transceiver_C_code/modulation.cc).
+
+<div id='s4'/>
+## 4. References <a name="s5"></a>
+
+[1] https://www.nsnam.org/
+
+[2] https://github.com/RegineWendt/blood-voyager-s
+
+[3] J. Torres Gómez, A. Kuestner, L. Stratmann, and F. Dressler, “Modeling Ultrasonic Channels with Mobility for Gateway to In-Body Nanocommunication,” in 2022 IEEE Global Communications Conference Workshops, under review, Rio de
+Janeiro, Brazil: IEEE, Dec. 2022

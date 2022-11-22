@@ -1,0 +1,40 @@
+Waf: Entering directory `/home/anke/Dokumente/Bachelorarbeit/ns-allinone-3.29/ns-3.29/build'
+Waf: Leaving directory `/home/anke/Dokumente/Bachelorarbeit/ns-allinone-3.29/ns-3.29/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (7.014s)
+PHYlaptop state change at 0.000192 from TRX_OFF to RX_ON
+PHYgateway state change at 0.000192 from TRX_OFF to RX_ON
+PHYlaptop state change at 0.002752 from RX_ON to TX_ON
+PHYlaptop state change at 0.002752 from TX_ON to BUSY_TX
+PHYgateway state change at 0.00275202 from RX_ON to BUSY_RX
+PHYlaptop state change at 0.00496 from BUSY_TX to TX_ON
+Received packet of size 50
+PHYgateway state change at 0.00496001 from BUSY_RX to RX_ON
+PHYlaptop state change at 0.005152 from TX_ON to RX_ON
+PHYgateway state change at 0.00515202 from RX_ON to TX_ON
+PHYgateway state change at 0.00515202 from TX_ON to BUSY_TX
+PHYlaptop state change at 0.00515203 from RX_ON to BUSY_RX
+PHYgateway state change at 0.00550402 from BUSY_TX to TX_ON
+LrWpanMcpsDataConfirmStatus = 0
+PHYlaptop state change at 0.00550403 from BUSY_RX to RX_ON
+PHYgateway state change at 0.00569601 from TX_ON to RX_ON
+PHYgateway state change at 5.00192 from RX_ON to TX_ON
+PHYgateway state change at 5.00192 from TX_ON to BUSY_TX
+PHYlaptop state change at 5.00192 from RX_ON to BUSY_RX
+PHYgateway state change at 5.00445 from BUSY_TX to TX_ON
+Received packet of size 60
+PHYlaptop state change at 5.00445 from BUSY_RX to RX_ON
+PHYgateway state change at 5.00464 from TX_ON to RX_ON
+PHYlaptop state change at 5.00464 from RX_ON to TX_ON
+PHYlaptop state change at 5.00464 from TX_ON to BUSY_TX
+PHYgateway state change at 5.00464 from RX_ON to BUSY_RX
+PHYlaptop state change at 5.00499 from BUSY_TX to TX_ON
+LrWpanMcpsDataConfirmStatus = 0
+PHYgateway state change at 5.00499 from BUSY_RX to RX_ON
+PHYlaptop state change at 5.00518 from TX_ON to RX_ON
+LrWpanNetDevice:DoDispose(0xba1600)
+LrWpanPhy:DoDispose(0xbd35a0)
+LrWpanNetDevice:DoDispose(0xbb4220)
+LrWpanPhy:DoDispose(0xbd4690)
+LrWpanNetDevice:~LrWpanNetDevice(0xbb4220)
+LrWpanNetDevice:~LrWpanNetDevice(0xba1600)
